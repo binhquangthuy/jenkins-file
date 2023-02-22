@@ -3,7 +3,7 @@ pipeline {
 	stages {
 		stage('Clone stage') {
 			steps {
-				git 'https://github.com/docker/getting-started.git'
+				git 'https://github.com/binhquangthuy/started.git'
 			}
 		}
 		stage('build stage') {

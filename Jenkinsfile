@@ -3,7 +3,7 @@ pipeline {
 	stages {
 		stage('Clone stage') {
 			steps {
-				git 'https://github.com/binhquangthuy/Angular-Full-Course---Complete-Zero-to-Hero-Angular-full-Tutorial.git'
+				git 'https://github.com/docker/getting-started.git'
 			}
 		}
 		stage('build stage') {
